@@ -12,18 +12,18 @@ POST   | `auth/login`   | Authenticates a user
 
 ### USERS
 METHOD | URL                    | What does it do
--------|------------------------|---------------------------------> ADMINISTRADOR
+-------|------------------------|---------------------------------
 POST   | `user`                 | Create user
-GET    | `user/auth/:userId`         | Get One user
-PUT    | `user/auth/:userId`         | Update user
-DELETE | `user/auth/:userId`         | Delete user
+GET    | `user/auth/:userId`    | Get One user
+PUT    | `user/auth/:userId`    | Update user
+DELETE | `user/auth/:userId`    | Delete user
 
 ### GAME
 
 METHOD | URL                    | What does it do
--------|------------------------|---------------------------------> ADMINISTRADOR
-POST   | `game/auth/`                | Search for game by params
-GET    | `game/auth/:gameId`         | Get One game
+-------|------------------------|---------------------------------
+POST   | `game/auth/`           | Search for game by params
+GET    | `game/auth/:gameId`    | Get One game
 
 
 ### MODELOS
