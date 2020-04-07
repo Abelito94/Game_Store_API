@@ -5,28 +5,27 @@ const gameSchema = new mongoose.Schema({
     type: String
   },
   gender: {
-    type: String,
+    type: String
   },
   developers: {
-    type: String,
+    type: String
   },
   release_year: {
     type: Date
   },
   platforms: {
-    type: Array,
+    type: Array
   },
   price: {
-    type: Number,
+    type: Number
   },
   photo: {
-    type: String,
+    type: String
   },
   information: {
-    type: String,
-  },
+    type: String
+  }
 })
 
 const gameModel = mongoose.model('game', gameSchema)
 module.exports = gameModel
-

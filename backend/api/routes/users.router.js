@@ -7,8 +7,8 @@ const {
 } = require('../controllers/users.controller')
 
 const { authUser } = require('../utils') // Authenticated Route
-
-router.get('/:id', authUser, getUserById)
+//, authUser
+router.get('/:id', getUserById)
 router.put('/:id', authUser, updateUser)
 router.delete('/:id', authUser, deleteUserById)
 

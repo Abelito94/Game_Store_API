@@ -22,21 +22,21 @@ const userSchema = new mongoose.Schema({
   },
   phone: {
     type: Number,
-    required: true, 
+    required: true
   },
   payment_method: {
     type: String,
     required: false
   },
   user_games: [{
-    Id:{
-      type:mongoose.Schema.Types.ObjectId,
-      ref:"game"
-    },
+    Id: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'game'
+    }
   }],
   shopping_record: [{
-    type: mongoose.Schema.Types.ObjectId, 
-    ref:"shopping_record"
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'shopping_record'
   }]
 })
 

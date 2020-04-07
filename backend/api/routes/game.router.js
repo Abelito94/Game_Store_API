@@ -1,12 +1,12 @@
 const router = require('express').Router()
 
 const {
-  getgameById
+  getGameById
 } = require('../controllers/game.controller')
 
 /* const { authUser } = require('../utils') // Authenticated Route
 , authUser */
 
-router.get('/:id', getgameById)
+router.get('/:id', getGameById)
 
 module.exports = router
