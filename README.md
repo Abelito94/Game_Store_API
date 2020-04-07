@@ -7,8 +7,8 @@ POST http://localhost:3000/api/auth/signup
 ### AUTHENTICATION ENDPOINTS
 METHOD | URL                | What does it do
 -------|--------------------|---------------------------------
-POST   | `auth/signup`  | Create a new account
-POST   | `auth/login`   | Authenticates a user
+POST   | `auth/signup`      | Create a new account
+POST   | `auth/login`       | Authenticates a user
 
 ### USERS
 METHOD | URL                    | What does it do
