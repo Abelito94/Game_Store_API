@@ -28,33 +28,32 @@ GET    | `game/auth/:gameId`    | Get One game
 
 ### MODELOS
 
-GAME 
-
-Nombre: STRING
-genero: STRING
-Programadores: STRING
-Año de salida: DATE
-Plataformas: arrays
-Precio: NUMBER
-FOTO: URL 
-INFORMACION : STRING 
-
-USUARIO
-
-NOMBRE DE USUARIO: STRING
-EMAIL: STRING
-CONTRASEÑA: STRING
-TELEFONO: NUMBER
-METODO DE PAGO : STRING
-JUEGOS: [OBJECTID]
-REGISTRO DE COMPRAS: [objectid]
-
-
-
-REGISTRO DE COMPRAS:
-
-FECHA: DATE
-GAME: OBJECTID    
-VECES DE DESCARGA: NUMBER
+### GAME 
+| ATTRIBUTE       | TYPE  |
+|-----------------|-------|
+| name:           |STRING |
+| gender:         |STRING |
+| developers:     |STRING |
+| release_year:   |DATE   |
+| platforms:      |arrays |
+| price:          |NUMBER |
+| photo:          |URL    |
+| information:    |STRING |
+### USER
+| ATTRIBUTE       | TYPE     |
+|-----------------|----------|
+| name:           |STRING    |
+| email:          |STRING    |
+| password:       |STRING    |
+| phone:          |NUMBER    |
+| payment_method :|STRING    |
+| games:          |[OBJECTID]|
+| shopping_record:|[objectid]|
+### SHOPPING_RECORD:
+| ATTRIBUTE       | TYPE    |
+|-----------------|---------|
+| date:           |DATE     |
+| game:           |OBJECTID |
+| downloads:      |NUMBER   |
 
 
