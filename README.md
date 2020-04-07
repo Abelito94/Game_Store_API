@@ -29,33 +29,35 @@ GET    | `game/auth/:gameId`    | Get One game
 ### MODELOS
 
 ### GAME 
-| ATTRIBUTE   TYPE  
-|-------------------------|
-| name: STRING            |
-| gender: STRING          |
-| developers: STRING      |
-| release_year: DATE      |
-| platforms: arrays       |
-| price: NUMBER           |
-| photo: URL              |
-| information: STRING     |
+| ATTRIBUTE       | TYPE  |
+|-----------------|-------|
+| name:           |STRING |
+| gender:         |STRING |
+| developers:     |STRING |
+| release_year:   |DATE   |
+| platforms:      |arrays |
+| price:          |NUMBER |
+| photo:          |URL    |
+| information:    |STRING |
 
 ### USER
-|---------------------------------|
-| name: STRING                    |
-| email: STRING                   |
-| password: STRING                |
-| phone: NUMBER                   |
-| payment_method : STRING         |
-| games: [OBJECTID]               |
-| shopping_record: [objectid]     |
+| ATTRIBUTE       | TYPE     |
+|----------------------------|
+| name:           |STRING    |
+| email:          |STRING    |
+| password:       |STRING    |
+| phone:          |NUMBER    |
+| payment_method :|STRING    |
+| games:          |[OBJECTID]|
+| shopping_record:|[objectid]|
 
 
 
 ### SHOPPING_RECORD:
-|-------------------|
-| date: DATE        |
-| game: OBJECTID    |
-| downloads: NUMBER |
+| ATTRIBUTE       | TYPE    |
+|---------------------------|
+| date:           |DATE     |
+| game:           |OBJECTID |
+| downloads:      |NUMBER   |
 
 
