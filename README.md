@@ -42,7 +42,7 @@ GET    | `game/auth/:gameId`    | Get One game
 
 ### USER
 | ATTRIBUTE       | TYPE     |
-|----------------------------|
+|-----------------|----------|
 | name:           |STRING    |
 | email:          |STRING    |
 | password:       |STRING    |
@@ -55,7 +55,7 @@ GET    | `game/auth/:gameId`    | Get One game
 
 ### SHOPPING_RECORD:
 | ATTRIBUTE       | TYPE    |
-|---------------------------|
+|-----------------|---------|
 | date:           |DATE     |
 | game:           |OBJECTID |
 | downloads:      |NUMBER   |
