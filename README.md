@@ -7,8 +7,8 @@ POST http://localhost:3000/api/auth/signup
 ### AUTHENTICATION ENDPOINTS
 METHOD | URL                | What does it do
 -------|--------------------|---------------------------------
-POST   | `auth/signup`  | Create a new account
-POST   | `auth/login`   | Authenticates a user
+POST   | `auth/signup`      | Create a new account
+POST   | `auth/login`       | Authenticates a user
 
 ### USERS
 METHOD | URL                    | What does it do
@@ -29,32 +29,33 @@ GET    | `game/auth/:gameId`    | Get One game
 ### MODELOS
 
 ### GAME 
+| ATTRIBUTE   TYPE  
 |-------------------------|
-| Nombre: STRING          |
-| genero: STRING          |
-| Programadores: STRING   |
-| Año de salida: DATE     |
-| Plataformas: arrays     |
-| Precio: NUMBER          |
-| FOTO: URL               |
-| INFORMACION : STRING    |
+| name: STRING            |
+| gender: STRING          |
+| developers: STRING      |
+| release_year: DATE      |
+| platforms: arrays       |
+| price: NUMBER           |
+| photo: URL              |
+| information: STRING     |
 
-### USUARIO
+### USER
 |---------------------------------|
-| NOMBRE DE USUARIO: STRING       |
-| EMAIL: STRING                   |
-| CONTRASEÑA: STRING              |
-| TELEFONO: NUMBER                |
-| METODO DE PAGO : STRING         |
-| JUEGOS: [OBJECTID]              |
-| REGISTRO DE COMPRAS: [objectid] |
+| name: STRING                    |
+| email: STRING                   |
+| password: STRING                |
+| phone: NUMBER                   |
+| payment_method : STRING         |
+| games: [OBJECTID]               |
+| shopping_record: [objectid]     |
 
 
 
-### REGISTRO DE COMPRAS:
-|---------------------------|
-| FECHA: DATE               |
-| GAME: OBJECTID            |
-| VECES DE DESCARGA: NUMBER |
+### SHOPPING_RECORD:
+|-------------------|
+| date: DATE        |
+| game: OBJECTID    |
+| downloads: NUMBER |
 
 
