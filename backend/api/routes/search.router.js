@@ -1,14 +1,12 @@
 const router = require('express').Router()
 
-
 const {
-    getSearch
+  getSearch
 } = require('../controllers/search.controller')
 
+/* const { authUser } = require('../utils') // Authenticated Route
+, authUser */
 
-const { authUser } = require('../utils') // Authenticated Route
-
-router.post("/", authUser, getSearch)
+router.post('/', getSearch)
 
 module.exports = router
-
