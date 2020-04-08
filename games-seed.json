@@ -7,7 +7,7 @@
         "category": "arcade",
         "developers": "activision",
         "release_date": "01/31/1999",
-        "platforms": ["xbox","megadrive","pc"],
+        "platforms": ["xbox","ps4","pc"],
         "price": 10,
         "photo_url": "https://m.media-amazon.com/images/I/514giApIQWL._SY346_.jpg",
         "description": "Crash Bandicoot was one of the most ground breaking games when released due to its intense 3D platforming challenges as well as having a character that we all fell in love with."
@@ -17,10 +17,90 @@
         "category": "arcade",
         "developers": "activision",
         "release_date": "01/31/1999",
-        "platforms": ["xbox","megadrive","pc"],
+        "platforms": ["xbox","ps4","pc"],
         "price": 10,
         "photo_url": "https://m.media-amazon.com/images/I/514giApIQWL._SY346_.jpg",
         "description": "Crash Bandicoot was one of the most ground breaking games when released due to its intense 3D platforming challenges as well as having a character that we all fell in love with."
+      },
+      {
+        "name": "The Last of Us Part II",
+        "category": "aventura",
+        "developers": "Naughty Dog",
+        "release_date": "01/31/2020",
+        "platforms": ["ps4"],
+        "price": 60,
+        "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR-VHzXBbOtZWVNpnhd0arpeW-BwkG6ElaZKL9WYbvDwocZJgvp&usqp=CAU",
+        "description": "The Last of Us 2 es la secuela de The Last of Us, uno de los juegos más aclamados de la consola PS3, que apareció en 2015 en PS4 en versión remasterizada. Esta continuación ha sido anunciada en el evento PlayStation Experience de diciembre de 2016, generando grandísimas expectativas entre los jugadores."
+      },
+      {
+        "name": "Cyberpunk 2077",
+        "category": "aventura",
+        "developers": "CD Projek",
+        "release_date": "01/31/1999",
+        "platforms": ["ps4","xbox","pc"],
+        "price": 60,
+        "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8PJfHfImD9Cyi4gmK5UbYLJKtUjcydR-dqbrfGtseoS2BHfH4&usqp=CAU",
+        "description": "Hablamos de un juego que tiene una cantidad de personajes, escala y nivel de detalle inédito en el mundo del videojueg0. Cyberpunk 2077 es un título con una dirección de arte retrofuturista, muy colorida y luminosa, inspirada por obras como el cómic Transmetropolitan de Warren Ellis."
+      },
+      {
+        "name": "Resident Evil 2",
+        "category": "miedo",
+        "developers": "Capcom",
+        "release_date": "01/31/1999",
+        "platforms": ["ps4","xbox","pc"],
+        "price": 60,
+        "photo_url": "https://www.residentevil.com/_asset/images/re2-panel.jpg",
+        "description": "Resident Evil 2 a​ —cuyo título original es Biohazard 2 (バイオハザード2 Baiohazādo Tsū?, «Peligro biológico 2»)—b​ es un videojuego japonés perteneciente al género de horror de supervivencia, desarrollado por la empresa Capcom, el videojuego es una nueva versión del videojuego de 1998 del mismo nombre, el videojuego fue anunciado por Capcom en el año 2015, aunque su lanzamiento fue confirmado en la conferencia de prensa de Sony de la E3 2018, para el mes de enero del año 2019.2​  El videojuego alcanzó la aclamación de la critica especializada por su presentación, modo de juego y fidelidad al original, así como gran aceptación del público convirtiéndose en uno de los videojuegos de Capcom más rápidamente vendidos durante su lanzamiento."
+      },
+      {
+        "name": "Hunting Simulator",
+        "category": "simulador",
+        "developers": "Maximum Games",
+        "release_date": "01/31/1999",
+        "platforms": ["pc"],
+        "price": 40,
+        "photo_url": "https://images.g2a.com/newlayout/323x433/1x1x0/da1df2771fc2/5c405e0dae653a4924740a02",
+        "description": "Hunting Simulator, desarrollado por Neopica, es un videojuego de caza y aventura virtual que cuenta con un modo de un solo jugador y modos multijugador, así como múltiples áreas de caza. ... También conocido como hunting."
+      },
+      {
+        "name": "Call of Duty: Modern Warfare",
+        "category": "aventura",
+        "developers": " Infinity Ward",
+        "release_date": "01/31/1999",
+        "platforms": ["ps4","xbox","pc"],
+        "price": 50,
+        "photo_url": "https://as.com/meristation/imagenes/2019/06/21/game_cover/634643831561110475.jpg",
+        "description": "Call of Duty: Modern Warfare es un videojuego de disparos en primera persona desarrollado por Infinity Ward y publicado por Activision. Es el decimosexto juego de la saga Call of Duty y es un reboot de la serie Modern Warfare.​​​ "
+      },
+      {
+        "name": "Dead by Daylight",
+        "category": "miedo",
+        "developers": " Behaviour Interactive",
+        "release_date": "01/31/1999",
+        "platforms": ["ps4","xbox","pc"],
+        "price": 30,
+        "photo_url": "https://s3.gaming-cdn.com/images/products/1904/orig/dead-by-daylight-cover.jpg",
+        "description": "Dead by Daylight es un videojuego de horror de supervivencia desarrollado por Behavior Interactive y publicado por Starbreeze Studios.​ ​​​ "
+      },
+      {
+        "name": "Airport Simulator",
+        "category": "simulador",
+        "developers": "Toplitz Productions",
+        "release_date": "01/31/1999",
+        "platforms": ["ps4","xbox","pc"],
+        "price": 20,
+        "photo_url": "https://store.playstation.com/store/api/chihiro/00_09_000/container/ES/es/999/EP3550-CUSA12902_00-AIRPORTSIMPS4EU0/1573637331000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000",
+        "description": "Traducción del inglés-Airport Simulator 2019 es un juego de simulación para un solo jugador, parte de la serie Airport Simulator. Fue desarrollado por Toplitz Productions y lanzado para Microsoft Windows"
+      },
+      {
+        "name": "Dragon Ball Z: Kakarot",
+        "category": "aventura",
+        "developers": " Bandai Namco Entertainment",
+        "release_date": "01/31/1999",
+        "platforms": ["ps4","xbox","pc"],
+        "price": 50,
+        "photo_url": "https://store-images.s-microsoft.com/image/apps.16517.13525800846502309.0bc7eb9b-47cd-4d2e-8abc-93649e60a2a3.893ac9da-e8da-4869-9a8b-24bafe8fcc10?mode=scale&q=90&h=225&w=150&background=%23FFFFFF",
+        "description": "Dragon Ball Z: Kakarot es un videojuego de rol de acción, desarrollado por CyberConnect2 y publicado por Bandai Namco Entertainment.​ Basado en la franquicia de Dragon Ball, se lanzó para Microsoft Windows, PlayStation 4 y Xbox One.​​​ Se confirmó la participación del creador de la franquicia, Akira Toriyama​​​ "
       }
     ]
   }
