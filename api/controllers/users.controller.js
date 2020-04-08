@@ -4,7 +4,7 @@ const { handleError } = require('../utils')
 function getUserById (req, res) {
   UserModel
     .findById(req.params.userId)
-    .populate('games shopping_records')
+    .populate('games')
     .then(response => res.json(response))
     .catch((err) => handleError(err, res))
 }

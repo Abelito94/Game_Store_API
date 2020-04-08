@@ -26,10 +26,6 @@ const userSchema = new mongoose.Schema({
   games: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'game'
-  }],
-  transactions: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'transaction'
   }]
 })
 
