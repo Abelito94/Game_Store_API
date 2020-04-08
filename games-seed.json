@@ -1,0 +1,27 @@
+[
+  {
+    "model": "game",
+    "documents": [
+      {
+        "name": "Crash Bandicoot",
+        "category": "arcade",
+        "developers": "activision",
+        "release_date": "01/31/1999",
+        "platforms": ["xbox","megadrive","pc"],
+        "price": 10,
+        "photo_url": "https://m.media-amazon.com/images/I/514giApIQWL._SY346_.jpg",
+        "description": "Crash Bandicoot was one of the most ground breaking games when released due to its intense 3D platforming challenges as well as having a character that we all fell in love with."
+      },
+      {
+        "name": "Crash Bandicoot2",
+        "category": "arcade",
+        "developers": "activision",
+        "release_date": "01/31/1999",
+        "platforms": ["xbox","megadrive","pc"],
+        "price": 10,
+        "photo_url": "https://m.media-amazon.com/images/I/514giApIQWL._SY346_.jpg",
+        "description": "Crash Bandicoot was one of the most ground breaking games when released due to its intense 3D platforming challenges as well as having a character that we all fell in love with."
+      }
+    ]
+  }
+]
