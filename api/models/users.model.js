@@ -13,7 +13,6 @@ const userSchema = new mongoose.Schema({
         return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(value)
       }
     },
-    // TODO: Make sure unique index works from Mongoose
     unique: [true, 'This is email is registered']
   },
   password: {
@@ -21,22 +20,16 @@ const userSchema = new mongoose.Schema({
     required: true
   },
   phone: {
-    type: Number,
+    type: String,
     required: true
   },
-  payment_method: {
-    type: String,
-    required: false
-  },
-  user_games: [{
-    Id: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'game'
-    }
-  }],
-  shopping_record: [{
+  games: [{
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'shopping_record'
+    ref: 'game'
+  }],
+  transactions: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'transaction'
   }]
 })
 
