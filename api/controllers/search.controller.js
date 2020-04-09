@@ -14,7 +14,7 @@ async function getSearch (req, res) {
   await gameModel
     .find()
     .then((games) => {
-      obj.category = games.filter((game) => game.category === search)
+      obj.category = games.filter((game) => game.category.toLowerCase().includes(search.toLowerCase()))
     })
     .catch((err) => console.log(err))
 
